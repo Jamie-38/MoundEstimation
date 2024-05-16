@@ -20,7 +20,7 @@ The Yolov8 model was trained in two phases, the first phase used a manualy label
 This model was then used to annotate the rest of the dataset, producing over 3400 images with augmentations.
 With this additional data, following review, the model was further trained for another 100 epochs.
 
-Futher training will likeyly lead to better results but this is not practical as the project currently has no access to a GPU.
+Futher training will likely lead to better results but this is not practical as the project currently has no access to a GPU.
 
 The mask-rcnn implementation followed a similar training appraoch but required additional functionalities in the code that YOLOV8 did not.
 The original project needed a secondary focus on building utilities to support generating additional training data. 
