@@ -25,7 +25,9 @@ Further training will likely lead to better results but this is not practical as
 The mask-rcnn implementation followed a similar training approach but required additional functionalities in the code that YOLOV8 did not.
 The original project needed a secondary focus on building utilities to support generating additional training data. 
 This has not been needed with YOLOv8 because of the library support and its approach to training data.
+In addition, the original mask-rcnn implementation also had the ability to evaluate its model. Functionality that is not added here.
 
+Below is an example orthophoto of a site and a close-up view of detected mounds. 
 
 ![siet_image](https://github.com/Jamie-38/MoundEstimation/assets/85198881/344196bd-e15e-4981-8838-592a609e5744)
 
