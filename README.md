@@ -15,7 +15,7 @@ The detection results can then be combined with geotransform data to produce acc
 
 To visualise the results, the project used QGIS
 
-Both the Mask-rcnn and YOLOv8 models used COCO weights as a basis for training. however, as this YOLOV8 version is a prototype training was done using default parameters.
+Both the Mask-rcnn and YOLOv8 models used COCO weights as a basis for training. however, as this YOLOV8 version is a prototype, training was done using default parameters.
 The Yolov8 model was trained in two phases, the first phase used a manually labelled dataset of around 200 images(with augmentation) and was trained for 100 epochs.
 This model was then used to annotate the rest of the dataset, producing over 3400 images with augmentations.
 This additional data, following review, was then used to further train for another 100 epochs.
@@ -24,7 +24,7 @@ Further training will likely lead to better results but this is not practical as
 
 The mask-rcnn implementation followed a similar training approach but required additional functionalities in the code that YOLOV8 did not.
 The original project needed a secondary focus on building utilities to support generating additional training data. 
-This has not been needed with YOLOv8 because of the library support and its approach to training data.
+This has not been needed with YOLOv8 because of its approach to training data.
 In addition, the original mask-rcnn implementation also had the ability to evaluate its model. Functionality that is not added here.
 
 Below is an example orthophoto of a site and a close-up view of detected mounds. 
